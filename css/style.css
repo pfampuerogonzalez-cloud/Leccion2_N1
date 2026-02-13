@@ -11,8 +11,7 @@ h2{
 }
 
 img{
-  height: 300px;  
-  width: 400px;
-  padding-left: 450px;
-  padding-right: 450px;
- }
+     height: 300px;  
+     width: 400px;
+     margin: auto;
+}
