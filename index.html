@@ -3,39 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lección 2, Ejercicio 1</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <title>Lección 2, Ejercicio 1</title>
+
 </head>
+
 <body>
-    <!-- se usa para crear la cabezera de la web-->
-    <header>
-    <!-- se usa para crear titulo grande-->
-        <h1>Encabezado</h1>
-    <!-- se usa para crear un texto de parrafo-->   
-        <p>aaaa</p>
-    </header>
-    <!--se usa para crear una sección-->
-    <section>
-    <!-- se usa para crear un titulo mas pequeño que el h1-->   
-        <h2>sección</h2>
-        <p>aaaaa </p>
-    <!-- se usa para  crear el inicio de un articulo-->
-        <article>
-          <p>aaa</p>
-        </article>
-     </section>
-     <h1>titulo grande</h1>
-     <p> parrafo</p>
-     
-     <!-- se usa para agregar un texto a un costado-->
-     <aside>
-        al costado
-    </aside>
+
+    <nav class="navbar navbar-expand-lg bg-primary mb-5" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Lección 3</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     
-     <!-- se usa para crear para poner un texto al pie de página-->
-    <footer>
-        pie de página
-    </footer>
-   <center><img src="assets/all.might.png" alt="" srcset="">
-</body></center>
+   
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
