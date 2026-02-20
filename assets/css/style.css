@@ -1,17 +1,4 @@
-body {
-    background-color: lightblue;
-}
-
-h1{ 
-    color: red;
-}
-
-h2{
-    color: red;
-}
-
-img{
-     height: 300px;  
-     width: 400px;
-     margin: auto;
+.img {
+    width: 400px;
+    height: 300px;
 }
